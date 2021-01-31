@@ -3,36 +3,59 @@
 <head>
     <meta charset="UTF-8" />
     <title>Explore travel</title>
+    <link href="uistore_css.css" rel="stylesheet">
 </head>
 <body>
 	<header>
+		<div class="logo">
+			<img src="images/logo.png" alt="" >
+		</div>
 		<div class="topnav">
-			<img src="images/logo.png" alt="">
-			<ul>
-				<li>Home</li>
-				<li>Destinations</li>
-				<li>About</li>
-				<li>Partner</li>
-			</ul>
+			<menu class="menu">
+				<button class="buttopnav home">Home</button>
+				<button class="buttopnav">Destinations</button>
+				<button class="buttopnav">About</button>
+				<button class="buttopnav">Partner</button>
+			</menu>
 			<button class="login topbtn">Login</button><button class="register topbtn">Register</button>
 		</div>    
+		<div class="clear"></div>
 		<div class="header_content">
-			<h1>Explore and Travel</h1>
-			<img src="images/element3.png" alt="">
-			<img src="images/element.png" alt="">
-			<img src="images/element2.png" alt="">
-			<h2>Holiday finder</h2>
-			<div class="hyphen"></div>
+			<div class="exploretravel">
+				<h1>Explore and Travel</h1>
 
-			<select name="Location" id="">Location</select>
-			<select name="Activity" id="">Activity</select>
-			<select name="Date" id="">Date</select>
-			<select name="Grade" id="">Grade</select>
-			<button class="exp_btn">Explore</button>
+				<div class="select">	
+					<h2>Holiday finder</h2>
+					<div class="hyphen"></div>
+					<br>
+					<select class="select-css location">
+						<option value="Location">Location</option>
+					</select>
+					<select class="select-css activity">
+						<option value="Activity">Activity</option>
+					</select>
+					<select class="select-css date">
+						<option value="Date">Date</option>
+					</select>
+					<select class="select-css grade">
+						<option value="Grade">Grade</option>
+					</select>
+					<br>
+					<button class="exp_btn">Explore</button>
+					<img src="images/element3.png" alt="">
+					<img src="images/element.png" alt="">
+					<img src="images/element2.png" alt="">
+				</div>	
+				<div class=""></div>
+
+			</div>
+
 			<img src="images/thousand-01 1.png" alt="">	
+			<div class="clear"></div>
 
 		</div>
 	</header>
+
 
 	
 </body>

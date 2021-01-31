@@ -1,0 +1,128 @@
+.logo {
+	float: left;
+	display: block;
+	width: 700px;
+	height: 60px;
+	}
+.menu li {
+
+}
+.menu {
+	display: flex;
+}
+.clear {
+    clear: left;
+   }
+.tpbtn {
+	text-align: right;
+
+}
+
+header {
+	width: 1415px;
+	height: 786px;
+	margin-left: auto;
+    margin-right: auto;
+}
+.topnav {
+	float: left;
+	width: 700px;
+	max-width: 700px;
+	height:60px;
+ 	display: flex;
+ 	align-items: center;
+}
+select {
+	width: 220px;
+	height: 52px;
+	font-family: black;
+}
+.select {
+	display: block;
+	height: 344px;
+	width: 680px;
+	float: left;
+}
+.hyphen {
+	display: block;
+	height: 2px;
+	width: 32px;
+	border: 1px;
+	border-color: black;
+	background-color: black;
+}
+.register {
+	background-color: #FB8F1D;
+	border: none;
+	border-radius: 8px;
+	height: 44px;
+	width: 132px;
+	margin-left: 40px;
+	color: #FFFFFF;
+	font-size: 17pt;
+}
+.exp_btn {
+	background-color: #FB8F1D;
+	border: none;
+	border-radius: 8px;
+	height: 52px;
+	width: 180px;
+	margin-top: 47px;
+	color: #FFFFFF;
+	font-size: 17pt;
+}
+.login {
+	border: 1px solid #FB8F1D;
+	border-radius: 8px;
+	background-color: white;
+	height: 44px;
+	width: 132px;
+	margin-left: 45px;
+	color: #FB8F1D;
+	font-size: 17pt;
+
+
+}
+.exploretravel {
+
+	width: 700px;
+	height: 654px;
+	float: left;
+
+}
+.select-css {
+	border-radius: 6px;
+	width: 220px;
+	height: 52px;
+	padding-left: 20px;
+	font-size: 15pt;
+	color: #4A4C53;
+}
+.location {
+	margin-top: 47px;
+	margin-right: 47px;
+}
+.date {
+	margin-right: 47px;
+	margin-top: 47px;
+}
+.grade {
+	margin-top: 47px;
+}
+.buttopnav {
+	background-color: white;
+	border: none;
+	justify-content: space-between;
+	font-size: 16pt;
+	color: #B8BECD;
+}
+.home {
+	color: black;
+
+}
+h1 {
+	font-size: 64pt;
+}
+h2 {
+	font-size: 22pt;
+}
